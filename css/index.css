@@ -1,0 +1,59 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+h1 {
+    color: cornflowerblue;
+}
+/*--------container------*/
+
+.container {
+    padding: 10px 30px;
+    background-color: #dddddd;
+}
+
+/*----x----container---x---*/
+
+/*--------profile-------*/
+.center-profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family:sans-serif;
+    font-weight: 300;
+    text-transform:capitalize;
+    margin: 0px;
+    padding: 0px;
+}
+.profile-pic {
+    width: 100%;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/*----X----profile---X----*/
+/*--------content---------*/
+
+.content {
+    font-size: 17px;
+    font-weight: 400;
+}
+
+ul li {
+    word-spacing: 2px;
+    padding-bottom: 10px;
+}
+/*----x----content----x-----*/
+.footer {
+    color:darkviolet;
+    font-size: 20px;
+    font-weight: 300;
+}
+.footer a {
+    text-decoration: none;
+    color: cornflowerblue; 
+    text-transform: capitalize;
+}
